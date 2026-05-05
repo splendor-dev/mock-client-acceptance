@@ -1,0 +1,88 @@
+schema_version: '1'
+project_name: mock-client-acceptance
+layout:
+  raw_dir: raw
+  raw_sources_dir: raw/sources
+  raw_assets_dir: raw/assets
+  raw_imports_dir: raw/imports
+  derived_dir: derived
+  derived_ocr_dir: derived/ocr
+  derived_parsed_dir: derived/parsed
+  derived_metadata_dir: derived/metadata
+  derived_summaries_dir: derived/summaries
+  wiki_dir: wiki
+  planning_dir: planning
+  state_dir: state
+  reports_dir: reports
+  source_records_dir: state/manifests/sources
+sources:
+  in_repo_storage_mode: none
+  external_storage_mode: copy
+  imported_storage_mode: copy
+  capture_source_commit: true
+  summarize_in_repo_extracts_as: excerpt
+  summarize_external_extracts_as: full
+  ocr_enabled: false
+  ocr_provider: sidecar-text
+  ocr_sidecar_suffix: .ocr.txt
+  include_patterns: []
+  exclude_patterns: []
+  repo_scan_default_classes:
+  - documentation
+queue:
+  max_attempts: 3
+  lease_ttl_seconds: 300
+  retry_backoff_seconds:
+  - 60
+  - 300
+  - 900
+reviews:
+  contradictions:
+    enabled: true
+    provider: openai
+    model: null
+    max_candidate_pages: 20
+    review_task_priority: high
+briefing:
+  authority_documents:
+  - path: docs/specs/reconciliation.md
+    role: current-authority
+    freshness: current
+    title: Reconciliation spec
+    purpose: Current product authority for balance and exception behavior.
+    applies_to:
+    - balance reconciliation
+    - held entries
+  - path: docs/plans/reconciliation-rollout.md
+    role: roadmap
+    freshness: current
+    title: Reconciliation rollout plan
+    purpose: Current implementation plan for evaluator-facing rollout.
+    applies_to:
+    - balance reconciliation rollout
+    - evaluator workflow
+  - path: docs/decisions/ADR-0001-csv-first.md
+    role: current-authority
+    freshness: current
+    title: ADR-0001 CSV first
+    purpose: Accepted decision that ranks above stale JSONL research.
+    applies_to:
+    - CSV
+    - JSONL
+    - import format
+  - path: docs/research/2026-03-jsonl-import-note.md
+    role: historical-review
+    freshness: historical
+    title: JSONL import research note
+    purpose: Stale contradictory research retained for authority-ranking acceptance.
+    applies_to:
+    - JSONL
+    - import format
+  - path: docs/research/2026-04-held-entry-policy.md
+    role: reference
+    freshness: current
+    title: Held entry policy research
+    purpose: Research evidence supporting held-entry exception behavior.
+    applies_to:
+    - held entries
+    - exceptions
