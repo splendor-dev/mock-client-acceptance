@@ -1,0 +1,67 @@
+{
+  "contradiction_ids": [],
+  "errors": [],
+  "finished_at": "2026-05-05T20:59:39.494333+00:00",
+  "input_refs": [
+    "state/manifests/sources/src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a.json",
+    "docs/research/2026-03-jsonl-import-note.md"
+  ],
+  "job_id": "ingest-src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a",
+  "job_type": "ingest_source",
+  "kind": "run",
+  "output_refs": [
+    "wiki/sources/src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a.md",
+    "wiki/index.md",
+    "wiki/log.md"
+  ],
+  "page_ids": [
+    "src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a"
+  ],
+  "page_refs": [
+    "wiki/sources/src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a.md"
+  ],
+  "pipeline_version": "0.2.0",
+  "provenance_links": [
+    {
+      "note": null,
+      "page_id": null,
+      "path_ref": "state/manifests/sources/src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a.json",
+      "role": "input",
+      "run_id": null,
+      "source_id": "src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a"
+    },
+    {
+      "note": null,
+      "page_id": null,
+      "path_ref": "docs/research/2026-03-jsonl-import-note.md",
+      "role": "input",
+      "run_id": null,
+      "source_id": "src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a"
+    },
+    {
+      "note": null,
+      "page_id": "src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a",
+      "path_ref": "wiki/sources/src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a.md",
+      "role": "generated-page",
+      "run_id": null,
+      "source_id": null
+    },
+    {
+      "note": null,
+      "page_id": "src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a",
+      "path_ref": null,
+      "role": "output",
+      "run_id": "run-src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a-20260505T205939492378Z",
+      "source_id": null
+    }
+  ],
+  "run_id": "run-src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a-20260505T205939492378Z",
+  "schema_version": "1",
+  "source_ids": [
+    "src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a"
+  ],
+  "started_at": "2026-05-05T20:59:39.492390+00:00",
+  "status": "succeeded",
+  "task_ids": [],
+  "warnings": []
+}

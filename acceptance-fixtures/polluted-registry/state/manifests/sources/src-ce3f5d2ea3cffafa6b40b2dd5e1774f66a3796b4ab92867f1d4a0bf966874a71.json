@@ -1,0 +1,59 @@
+{
+  "added_at": "2026-05-05T20:59:39+00:00",
+  "aliases": [
+    "docs/plans/reconciliation-rollout.md"
+  ],
+  "checksum": "ce3f5d2ea3cffafa6b40b2dd5e1774f66a3796b4ab92867f1d4a0bf966874a71",
+  "derived_artifacts": [],
+  "discovered_by": null,
+  "generated_by_run_ids": [
+    "run-src-ce3f5d2ea3cffafa6b40b2dd5e1774f66a3796b4ab92867f1d4a0bf966874a71-20260505T205949260718Z"
+  ],
+  "kind": "source",
+  "last_run_id": "run-src-ce3f5d2ea3cffafa6b40b2dd5e1774f66a3796b4ab92867f1d4a0bf966874a71-20260505T205949260718Z",
+  "linked_pages": [
+    "wiki/sources/src-ce3f5d2ea3cffafa6b40b2dd5e1774f66a3796b4ab92867f1d4a0bf966874a71.md"
+  ],
+  "logical_id": "source:docs/plans/reconciliation-rollout.md",
+  "materialized_at": null,
+  "origin_url": null,
+  "original_path": "docs/plans/reconciliation-rollout.md",
+  "path": "docs/plans/reconciliation-rollout.md",
+  "pipeline_version": "0.2.0",
+  "provenance_links": [
+    {
+      "note": null,
+      "page_id": "src-ce3f5d2ea3cffafa6b40b2dd5e1774f66a3796b4ab92867f1d4a0bf966874a71",
+      "path_ref": "wiki/sources/src-ce3f5d2ea3cffafa6b40b2dd5e1774f66a3796b4ab92867f1d4a0bf966874a71.md",
+      "role": "generated-page",
+      "run_id": null,
+      "source_id": null
+    },
+    {
+      "note": null,
+      "page_id": null,
+      "path_ref": null,
+      "role": "output",
+      "run_id": "run-src-ce3f5d2ea3cffafa6b40b2dd5e1774f66a3796b4ab92867f1d4a0bf966874a71-20260505T205949260718Z",
+      "source_id": "src-ce3f5d2ea3cffafa6b40b2dd5e1774f66a3796b4ab92867f1d4a0bf966874a71"
+    }
+  ],
+  "review_state": "unreviewed",
+  "reviewed_at": null,
+  "reviewed_by": null,
+  "schema_version": "1",
+  "source_class": null,
+  "source_commit": null,
+  "source_commit_capture": null,
+  "source_id": "src-ce3f5d2ea3cffafa6b40b2dd5e1774f66a3796b4ab92867f1d4a0bf966874a71",
+  "source_labels": [],
+  "source_ref": "docs/plans/reconciliation-rollout.md",
+  "source_ref_kind": "workspace_path",
+  "source_type": "md",
+  "status": "ingested",
+  "storage_mode": "none",
+  "storage_path": null,
+  "superseded_by": null,
+  "supersedes": [],
+  "title": "reconciliation rollout"
+}

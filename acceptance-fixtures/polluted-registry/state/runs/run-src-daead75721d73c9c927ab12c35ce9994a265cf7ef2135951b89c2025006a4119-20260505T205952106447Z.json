@@ -1,0 +1,73 @@
+{
+  "contradiction_ids": [
+    "contradiction-src-ce3f5d2ea3cffafa6b40b2dd5e1774f66a3796b4ab92867f1d4a0bf966874a71-src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119-ed0e8a8e4c"
+  ],
+  "errors": [],
+  "finished_at": "2026-05-05T20:59:57.244224+00:00",
+  "input_refs": [
+    "state/manifests/sources/src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119.json",
+    "docs/specs/reconciliation.md"
+  ],
+  "job_id": "ingest-src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119",
+  "job_type": "ingest_source",
+  "kind": "run",
+  "output_refs": [
+    "wiki/sources/src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119.md",
+    "wiki/index.md",
+    "wiki/log.md",
+    "wiki/sources/src-ce3f5d2ea3cffafa6b40b2dd5e1774f66a3796b4ab92867f1d4a0bf966874a71.md",
+    "planning/tasks/task-review-src-ce3f5d2ea3-src-daead75721-5c783afdca.md"
+  ],
+  "page_ids": [
+    "src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119"
+  ],
+  "page_refs": [
+    "wiki/sources/src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119.md"
+  ],
+  "pipeline_version": "0.2.0",
+  "provenance_links": [
+    {
+      "note": null,
+      "page_id": null,
+      "path_ref": "state/manifests/sources/src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119.json",
+      "role": "input",
+      "run_id": null,
+      "source_id": "src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119"
+    },
+    {
+      "note": null,
+      "page_id": null,
+      "path_ref": "docs/specs/reconciliation.md",
+      "role": "input",
+      "run_id": null,
+      "source_id": "src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119"
+    },
+    {
+      "note": null,
+      "page_id": "src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119",
+      "path_ref": "wiki/sources/src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119.md",
+      "role": "generated-page",
+      "run_id": null,
+      "source_id": null
+    },
+    {
+      "note": null,
+      "page_id": "src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119",
+      "path_ref": null,
+      "role": "output",
+      "run_id": "run-src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119-20260505T205952106447Z",
+      "source_id": null
+    }
+  ],
+  "run_id": "run-src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119-20260505T205952106447Z",
+  "schema_version": "1",
+  "source_ids": [
+    "src-daead75721d73c9c927ab12c35ce9994a265cf7ef2135951b89c2025006a4119"
+  ],
+  "started_at": "2026-05-05T20:59:52.106467+00:00",
+  "status": "succeeded",
+  "task_ids": [
+    "task-review-src-ce3f5d2ea3-src-daead75721-5c783afdca"
+  ],
+  "warnings": []
+}

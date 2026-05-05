@@ -1,0 +1,77 @@
+{
+  "contradiction_ids": [
+    "contradiction-src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a-src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465-01774e4985",
+    "contradiction-src-5e2617b29067c0049343e470c51e7848dd256c7ef18ed445a2c5ab9f6a73ed42-src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465-d2f8ac27e0"
+  ],
+  "errors": [],
+  "finished_at": "2026-05-05T20:59:49.257261+00:00",
+  "input_refs": [
+    "state/manifests/sources/src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465.json",
+    "docs/decisions/ADR-0001-csv-first.md"
+  ],
+  "job_id": "ingest-src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465",
+  "job_type": "ingest_source",
+  "kind": "run",
+  "output_refs": [
+    "wiki/sources/src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465.md",
+    "wiki/index.md",
+    "wiki/log.md",
+    "wiki/sources/src-2c3c0d59a65c250a511cd498e18356d06306eaf934db52a9e3fccf439577a78a.md",
+    "wiki/sources/src-5e2617b29067c0049343e470c51e7848dd256c7ef18ed445a2c5ab9f6a73ed42.md",
+    "planning/tasks/task-review-src-2c3c0d59a6-src-81eec4a477-2225996cf8.md",
+    "planning/tasks/task-review-src-5e2617b290-src-81eec4a477-53ed7066ed.md"
+  ],
+  "page_ids": [
+    "src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465"
+  ],
+  "page_refs": [
+    "wiki/sources/src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465.md"
+  ],
+  "pipeline_version": "0.2.0",
+  "provenance_links": [
+    {
+      "note": null,
+      "page_id": null,
+      "path_ref": "state/manifests/sources/src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465.json",
+      "role": "input",
+      "run_id": null,
+      "source_id": "src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465"
+    },
+    {
+      "note": null,
+      "page_id": null,
+      "path_ref": "docs/decisions/ADR-0001-csv-first.md",
+      "role": "input",
+      "run_id": null,
+      "source_id": "src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465"
+    },
+    {
+      "note": null,
+      "page_id": "src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465",
+      "path_ref": "wiki/sources/src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465.md",
+      "role": "generated-page",
+      "run_id": null,
+      "source_id": null
+    },
+    {
+      "note": null,
+      "page_id": "src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465",
+      "path_ref": null,
+      "role": "output",
+      "run_id": "run-src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465-20260505T205944310033Z",
+      "source_id": null
+    }
+  ],
+  "run_id": "run-src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465-20260505T205944310033Z",
+  "schema_version": "1",
+  "source_ids": [
+    "src-81eec4a477d0fab3ec40de13760ac3cf5300328ed68c460106ee3a7a2c4a7465"
+  ],
+  "started_at": "2026-05-05T20:59:44.310048+00:00",
+  "status": "succeeded",
+  "task_ids": [
+    "task-review-src-2c3c0d59a6-src-81eec4a477-2225996cf8",
+    "task-review-src-5e2617b290-src-81eec4a477-53ed7066ed"
+  ],
+  "warnings": []
+}

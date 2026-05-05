@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+dist/
+build/
+.coverage
+.DS_Store
+
+# Local agent and notebook scratch spaces that should never become curated sources.
+.codex/
+.claude/
+.cursor/
+.aider*/
+.cache/
+tmp/
+scratch/
+notebooks/.ipynb_checkpoints/
+
+# MockLedger runtime outputs.
+reports/runtime/

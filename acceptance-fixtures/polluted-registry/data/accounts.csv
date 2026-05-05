@@ -1,0 +1,7 @@
+account,amount,status,note
+cash,1250.00,posted,seed balance
+cash,-42.25,posted,card adjustment
+receivables,310.50,posted,invoice import
+cash,-17.00,held,manual review
+deferred,88.00,posted,subscription prepay
+receivables,-90.00,held,disputed invoice

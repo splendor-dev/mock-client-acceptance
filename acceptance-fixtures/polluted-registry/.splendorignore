@@ -1,0 +1,4 @@
+acceptance-fixtures/**
+reports/runtime/**
+tmp/**
+scratch/**

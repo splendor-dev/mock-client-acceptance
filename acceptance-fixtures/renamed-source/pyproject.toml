@@ -1,0 +1,11 @@
+[project]
+name = "mockledger"
+version = "0.1.0"
+description = "Small public CLI/data project for Splendor acceptance workflows."
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
