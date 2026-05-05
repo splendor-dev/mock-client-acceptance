@@ -10,6 +10,8 @@ account balances. Held entries are excluded from balances and counted as excepti
 - Count held entries as exceptions.
 - Keep input data in CSV so non-engineering reviewers can audit it.
 - Treat this spec as the current product authority for balance behavior.
+- Emit a separate held-entry count per account once the evaluator has completed the baseline
+  workflow.
 
 ## Acceptance
 

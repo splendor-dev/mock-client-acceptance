@@ -10,6 +10,7 @@ Ship a small, reviewable balance report before expanding MockLedger into a large
 2. Use CSV as the reviewable data exchange format.
 3. Add source refresh and authority-ranking acceptance checks before public v1 evaluation.
 4. Revisit JSONL only after the evaluator workflow proves stable on this fixture.
+5. Add a held-entry count follow-up after the first source-refresh acceptance pass.
 
 ## Open Questions
 
